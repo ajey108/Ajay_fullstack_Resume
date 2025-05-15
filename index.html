@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajay Kumar - Resume</title>
+    <script>
+      // Auto-download the resume as PDF
+      window.onload = function () {
+        setTimeout(() => {
+          const link = document.createElement("a");
+          link.href = "/ajaykr_fullstack.pdf";
+          link.download = "ajaykr_fullstack.pdf";
+          link.click();
+        }, 3000);
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-gray-800 p-6 font-sans">
+    <a href="https://ajay108portfolio.netlify.app/">
+      <h1 class="text-green-500 text-4xl ml-[50px] hover:text-green-700">
+        Home
+      </h1></a
+    >
+    <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-8">
+      <div class="text-center border-b pb-6">
+        <h1 class="text-3xl font-bold">Ajay Kumar</h1>
+        <p class="text-gray-600">Noida, Uttar Pradesh</p>
+        <p class="text-sm mt-1">📞 (639) 756-9698 | 📧 ajayxa1@gmail.com</p>
+        <div class="flex justify-center gap-4 mt-2 text-blue-500">
+          <a
+            href="https://www.linkedin.com/in/ajay-kumar-016b56242/"
+            class="hover:underline"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/ajey108" class="hover:underline"
+            >GitHub</a
+          >
+          <a
+            href="https://ajay108portfolio.netlify.app/"
+            class="hover:underline"
+            >Portfolio</a
+          >
+        </div>
+      </div>
+
+      <section class="mt-6">
+        <h2 class="text-xl font-semibold text-indigo-700 border-b pb-1 mb-2">
+          Professional Summary
+        </h2>
+        <p>
+          Enthusiastic and detail-oriented MERN Full Stack Developer with
+          hands-on experience in designing and developing scalable full-stack
+          applications. Eager to contribute technical expertise and
+          problem-solving skills to a dynamic organization.
+        </p>
+      </section>
+
+      <section class="mt-6">
+        <h2 class="text-xl font-semibold text-indigo-700 border-b pb-1 mb-2">
+          Skills
+        </h2>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <p>
+              <strong>Front-End:</strong> HTML, CSS, Tailwind CSS, Bootstrap,
+              JavaScript, React.js, Next.js, TypeScript, Docker
+            </p>
+            <p><strong>Back-End:</strong> Node.js, Express.js, Redis</p>
+          </div>
+          <div>
+            <p><strong>Database:</strong> MongoDB, SQL</p>
+            <p><strong>Version Control:</strong> Git, GitHub</p>
+            <p>
+              <strong>Tools & Technologies:</strong> REST APIs, JSON, JWT,
+              bcrypt, Cloudinary, Razorpay/Stripe, Prisma
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-6">
+        <h2 class="text-xl font-semibold text-indigo-700 border-b pb-1 mb-2">
+          Project
+        </h2>
+        <h3 class="text-lg font-semibold">
+          LapyEcom
+          <a
+            href="https://lapy-frontend.vercel.app/"
+            class="text-blue-500 underline"
+            target="_blank"
+            >[Live Demo]</a
+          >
+        </h3>
+        <p class="text-sm italic">
+          MongoDB | Express.js | React.js | Node.js | Tailwind CSS | JWT |
+          Cloudinary | Stripe
+        </p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>
+            Developed and deployed a full-stack e-commerce platform with robust
+            performance and security.
+          </li>
+          <li>Secure JWT-based authentication and role-based authorization.</li>
+          <li>
+            Admin dashboard for managing products with Cloudinary image uploads
+            and inventory tracking.
+          </li>
+          <li>
+            Integrated Stripe payment gateway with order confirmation and
+            transactional emails.
+          </li>
+          <li>
+            Shopping cart, coupon system, order status updates, and dynamic
+            checkout pricing.
+          </li>
+          <li>
+            Advanced search and filter features based on category, price, and
+            ratings.
+          </li>
+          <li>Responsive UI using Tailwind CSS and React.js.</li>
+          <li>
+            Backend optimization using MongoDB indexing and Express.js
+            enhancements.
+          </li>
+          <li>
+            Global state handled via Context API for smooth user experience.
+          </li>
+        </ul>
+      </section>
+
+      <section class="mt-6">
+        <h2 class="text-xl font-semibold text-indigo-700 border-b pb-1 mb-2">
+          Education
+        </h2>
+        <p><strong>BA</strong> – CCSU (2020)</p>
+      </section>
+
+      <section class="mt-6">
+        <h2 class="text-xl font-semibold text-indigo-700 border-b pb-1 mb-2">
+          Certifications
+        </h2>
+        <ul class="list-disc pl-5">
+          <li>
+            O Level Certification (M1-R5) – Information Technology Tools and
+            Network Basics (2022)
+          </li>
+          <li>
+            O Level Certification (M2-R5) – Web Designing and Publishing (2022)
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
